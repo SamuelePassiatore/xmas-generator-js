@@ -19,7 +19,7 @@ function changeImage() {
         currentImageIndex = 1;
     }
 
-    previewImage.src = `./images/img_${currentImageIndex}.png`;
+    previewImage.src = `./img/img_${currentImageIndex}.png`;
 }
 
 function changeText() {
@@ -28,7 +28,7 @@ function changeText() {
         currentTextIndex = 1;
     }
 
-    previewText.src = `./images/txt_${currentTextIndex}.png`;
+    previewText.src = `./img/txt_${currentTextIndex}.png`;
 }
 
 function updateSender() {
